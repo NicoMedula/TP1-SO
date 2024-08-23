@@ -70,7 +70,7 @@ header a{
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -89,7 +89,7 @@ header a:hover{
     background-image: linear-gradient(0deg,
      rgb(0,0,0,0.5),
      rgb(0,0,0,0.5)
-     ),url("Imagenes/Imagen1.jpg");
+     ),url("Imagenes/IA-Image.jpg");
     
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,7 +136,7 @@ header a:hover{
     background-image: linear-gradient(0deg,
     rgb(0,0,0,0.5),
     rgb(0,0,0,0.5)
-    ),url("Imagenes/Imagen2.jpg");
+    ),url("Imagenes/IA-Image.jpg");
     
 }
 .carta:nth-child(2){
@@ -230,7 +230,7 @@ footer .container{
         max-width: 600px;
         text-align: initial;
         padding: 0px 30px;
-        padding-left: 30px;
+        padding-left: 30px; 
         display: flex;
         flex-direction: column;
         justify-content:center ;
@@ -269,10 +269,10 @@ footer .container{
     }
 
     #caracteristicas{
-        background-image: url("Imagenes/Imagen6.jpg");
+        background-image: url("Imagenes/IA-Image2.jpg");
         background-repeat: no-repeat;
         background-size: 500px 400px;
-        background-position: 500px 120px;
+        background-position: 700px 120px;
     }
 
     #caracteristicas .container{
@@ -292,6 +292,68 @@ footer .container{
 
     footer .container{
         justify-content: flex-end;
+    }
+
+    #cuestionario {
+        background-color: rgb(245, 245, 245);
+        padding: 50px 12px;
+        text-align: center;
+    }
+    
+    #cuestionario h2 {
+        margin-bottom: 20px;
+    }
+    
+    form {
+        max-width: 600px;
+        margin: auto;
+    }
+    
+    fieldset {
+        border: 2px solid blueviolet;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: white;
+    }
+    
+    legend {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    
+    label {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    button {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 2px solid rgba(0,0,0,0.5);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        background-color: blueviolet;
+        color: white;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: rgb(77, 21, 129);
+    }
+    
+    #result{
+        margin-top: 20px;
+        padding: 15px;
+        background-color: #f0f8ff;
+        border: 2px solid #4caf50;
+        border-radius: 8px;
+        font-size: 1.2em;
+        color: #333;
+        text-align: center;
+        font-weight: bold;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
     
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Rensponsive Page</title>
+    <title> TP1 Sistemas Operativos</title>
     <link rel="stylesheet" href="Estilo.css">
 </head>
 
@@ -13,18 +13,18 @@
 
     <header>
         <div class="container">
-        <p class="logo">Programa Ya!</p>
+        <p class="logo">Sistemas Operativos</p>
             <nav>
-                <a href="somos-proya">Sobre Nosotros</a>
-                <a href="nuestros-programas">Nuestros Programas</a>
-                <a href="caracteristicas">Caracteristicas</a>
+                <a href="#somos-proya">Historia SO</a>
+                <a href="#nuestros-programas">SO y IA</a>
+                <a href="#caracteristicas">Evolución y caracteristicas</a>
             </nav>
         </div>
     </header>
 
     <section id="Hero">
-        <h1>Aprendé a Programar <br> con los mejores</h1>
-        <button>Aplicá ya!</button>
+        <h1>Conocé como se implementa<br> la IA en los mas conocido SO</h1>
+        <button>Conocer!</button>
     </section>
 
     <section id="somos-proya">
@@ -33,8 +33,10 @@
             <div class="img-container"></div>
 
             <div class="texto">
-                <h2>Somos <span class="color-acento">Programá Ya<span></h2>
-                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, aliquam natus iusto qui laboriosam, recusandae ipsa provident rem quidem minima dolorum, distinctio magni maxime quibusdam nam labore pariatur quia excepturi.</p>
+                <h2>Historia de los <span class="color-acento">Sistema Operativos<span></h2>
+                <p>Los sistemas operativos (SO) son programas fundamentales que gestionan el hardware y software de una computadora, permitiendo que los usuarios y otras aplicaciones interactúen con el sistema de manera eficiente. A lo largo de la historia, han evolucionado significativamente para adaptarse a las necesidades cambiantes de los usuarios y la tecnología. 
+                
+            </p>
             </div>
         </div>
 
@@ -44,23 +46,24 @@
         
         <div class="container">
 
-            <h2>Nuestros Programas</h2>
+            <h2>Inteligencia Artificial aplicada en SO</h2>
                 <div class="programas">
                     <div class="carta">
-                        <h3>Programador Front-End</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, maxime neque, iure quia doloribus veritatis quam nostrum placeat delectus corporis natus exercitationem voluptatem assumenda facere odio. Doloremque ex architecto facere.</p>
-                        <button>+Info</button>
-                     </div>
-
-                    <div class="carta">
-                        <h3>Programador Full-Stack</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, maxime neque, iure quia doloribus veritatis quam nostrum placeat delectus corporis natus exercitationem voluptatem assumenda facere odio. Doloremque ex architecto facere.</p>
+                        <h3>Windows</h3>
+                        <p>
+                            Windows ha integrado inteligencia artificial (IA) en sus versiones recientes para mejorar la experiencia del usuario. Esto incluye asistentes virtuales como Cortana, que utiliza procesamiento de lenguaje natural, y capacidades avanzadas de seguridad con machine learning para detectar y prevenir amenazas en tiempo real.</p>
                         <button>+Info</button>
                     </div>
 
                     <div class="carta">
-                        <h3>Programador Python</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, maxime neque, iure quia doloribus veritatis quam nostrum placeat delectus corporis natus exercitationem voluptatem assumenda facere odio. Doloremque ex architecto facere.</p>
+                        <h3>Linux</h3>
+                        <p>Aunque Linux no "aplica" la IA directamente en el sentido de que el sistema operativo mismo se vuelva inteligente, es el entorno preferido para desarrollar, ejecutar y optimizar aplicaciones de IA debido a su flexibilidad, estabilidad y soporte para herramientas y bibliotecas de IA.</p>
+                        <button>+Info</button>
+                    </div>
+
+                    <div class="carta">
+                        <h3>IOS</h3>
+                        <p>Usa inteligencia artificial en Siri para entender comandos, en Face ID para reconocimiento facial seguro, en la app Fotos para organizar imágenes automáticamente, y en la mejora de fotos y videos mediante procesamiento avanzado.</p>
                         <button>+Info</button>
                     </div>
 
@@ -76,10 +79,12 @@
 
         <div class="container">
             <ul>
-                <li>✔️ 100% online</li>
-                <li>✔️ Flexibilidad de horarios</li>
-                <li>✔️ Soporte 1:1</li>
-                <li>✔️ Asistencia financiera</li>
+                <li>⌚ <span class="color-acento">​Años 1950-1960:</span> Sistemas de Procesamiento por Lotes<br> 
+                <li>⌚ <span class="color-acento">​Años 1960-1970:</span>  Multiprogramación y Tiempo Compartido<br></li>
+                <li>⌚ <span class="color-acento">​Años 1980:</span> PC y Sistemas Operativos Personales</li>
+                <li>⌚ <span class="color-acento">​Años 1990:</span>  Popularización de Windows y Linux<br></li>
+                <li>⌚ <span class="color-acento">​Años 2000:</span> Sistemas Operativos Móviles y Virtualización<br></li>
+                <li>⌚ ​<span class="color-acento">Años 2010 en adelante:</span> Cloud Computing y Internet de las Cosas (IoT)</li></li>
             </ul>
         </div>
 
@@ -88,17 +93,123 @@
 
     <section id="aplica-ya">
 
-        <h2>Listo para programar?</h2>
-        <button>Aplicá ya</button>
+        <h2>Que increible es la IA verdad?</h2>
+        
 
     </section>
 
+    
+
+    <section id="cuestionario">
+        <h2>Cuestionario</h2>
+        <form id="quiz-form">
+            <fieldset>
+                <legend>Pregunta 1:</legend>
+                <label>
+                    <input type="radio" name="pregunta1" value="a" data-correct="true">
+                    a) Opción 1
+                </label><br>
+                <label>
+                    <input type="radio" name="pregunta1" value="b">
+                    b) Opción 2
+                </label><br>
+                <label>
+                    <input type="radio" name="pregunta1" value="c">
+                    c) Opción 3
+                </label><br>
+                <label>
+                    <input type="radio" name="pregunta1" value="d">
+                    d) Opción 4
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Pregunta 2:</legend>
+                <label>
+                    <input type="radio" name="pregunta2" value="a" data-correct="true">
+                    a) Opción 1
+                </label><br>
+                <label>
+                    <input type="radio" name="pregunta2" value="b">
+                    b) Opción 2
+                </label><br>
+                <label>
+                    <input type="radio" name="pregunta2" value="c">
+                    c) Opción 3
+                </label><br>
+                <label>
+                    <input type="radio" name="pregunta2" value="d">
+                    d) Opción 4
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Pregunta 3:</legend>
+                <label>
+                    <input type="radio" name="pregunta3" value="a" data-correct="true">
+                    a) Opción 1
+                </label><br>
+                <label>
+                    <input type="radio" name="pregunta3" value="b">
+                    b) Opción 2
+                </label><br>
+                <label>
+                    <input type="radio" name="pregunta3" value="c">
+                    c) Opción 3
+                </label><br>
+                <label>
+                    <input type="radio" name="pregunta3" value="d">
+                    d) Opción 4
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Pregunta 4:</legend>
+                <label>
+                    <input type="radio" name="pregunta4" value="a">
+                    a) Opción 1
+                </label><br>
+                <label>
+                    <input type="radio" name="pregunta4" value="b" data-correct="true">
+                    b) Opción 2
+                </label><br>
+                <label>
+                    <input type="radio" name="pregunta4" value="c">
+                    c) Opción 3
+                </label><br>
+                <label>
+                    <input type="radio" name="pregunta4" value="d">
+                    d) Opción 4
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Pregunta 5:</legend>
+                <label>
+                    <input type="radio" name="pregunta5" value="a" data-correct="true">
+                    a) Opción 1
+                </label><br>
+                <label>
+                    <input type="radio" name="pregunta5" value="b">
+                    b) Opción 2
+                </label><br>
+                <label>
+                    <input type="radio" name="pregunta5" value="c">
+                    c) Opción 3
+                </label><br>
+                <label>
+                    <input type="radio" name="pregunta5" value="d">
+                    d) Opción 4
+                </label>
+            </fieldset>
+            <button type="submit">Enviar Respuestas<br></button>
+        </form>
+        <div id="result"></div>
+    </section>
+    
     <footer>
         <div class="container">
-            <p>&copy; Programa ya 2024</p>
+            <p>&copy; Sistemas Operativos by NUM</p>
         </div>
     </footer>
 
+    <script src="index.js"></script>
 
 </body>
 
