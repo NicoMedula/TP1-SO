@@ -87,9 +87,9 @@ header a:hover{
     height: 90vh;
     color: white;
     background-image: linear-gradient(0deg,
-     rgb(0,0,0,0.5),
-     rgb(0,0,0,0.5)
-     ),url("Imagenes/IA-Image.jpg");
+    rgb(0,0,0,0.5),
+    rgb(0,0,0,0.5)
+    ),url("Imagenes/IA-Image.jpg");
     
     background-repeat: no-repeat;
     background-size: cover;
